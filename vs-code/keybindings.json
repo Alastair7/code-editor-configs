@@ -1,0 +1,73 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+u",
+    "command": "editor.action.goToTypeDefinition",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+oem_1",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+oem_1",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.goToReferences"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+k ctrl+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+z",
+    "command": "workbench.action.closeOtherEditors",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10
+    }
+  },
+  {
+    "key": "ctrl+0",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10
+    }
+  },
+  {
+    "key": "ctrl+k ctrl+oem_3",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus"
+  }
+]
